@@ -15,11 +15,35 @@ cd GACS_Ubuntu_24.04
 chmod +x GACSUbuntu24.sh
 ```
 ```
+chmod +x NodeJSMongoDB.sh
+```
+```
+chmod +x GACS.sh
+```
+```
 sudo apt-get install dos2unix
 ```
+
+# NodeJS, MongoDB and GenieACS
 ```
 dos2unix GACSUbuntu24.sh
 ```
 ```
 bash GACSUbuntu24.sh
+```
+
+# Only NodeJS and MongoDB
+```
+dos2unix NodeJSMongoDB.sh
+```
+```
+bash NodeJSMongoDB.sh
+```
+
+# Only GenieACS
+```
+dos2unix GACS.sh
+```
+```
+bash GACS.sh
 ```
